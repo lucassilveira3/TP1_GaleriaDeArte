@@ -26,7 +26,10 @@ A coloração dos vértices foi uma etapa mais complicada que a triangulação, 
 Após uma adaptação no algoritmo DFS, que antes realizava a busca em grafos, a coloração ficou mais simples. A DFS ou busca em profundidade, funciona em conjunto com os vértices adjacentes, buscando os vértices que não estão coloridos e que não fazem adjacência com outro vértice colorido da mesma cor.
 Portanto, após colorir um vértice de vermelho, a função vai colorir outros vértices que, em conjunto, formam um triângulo. Sempre buscando evitar que vértices adjacentes sejam coloridos da mesma cor, a função é executada até todos os vértices estarem coloridos (ou até todos os triângulos possuírem as três cores em seus vértices).
 
-### 3.	Conclusão
+### 3. Execução
+Para executar o programa, deve-se inserir os vértices do polígono em ordem anti-horária e apenas executar todas as células do notebook.
+
+### 4.	Conclusão
 Por fim, destaco a importância de se aprender e saber utilizar os algoritmos geométricos, como também a manipulação de sequências. O trabalho prático em si teve suas complicações, porém, no fim, tudo se encaixou e funcionou corretamente.
 
 ## Referências
