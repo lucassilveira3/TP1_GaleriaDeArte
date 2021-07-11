@@ -39,4 +39,4 @@ https://arxiv.org/ftp/arxiv/papers/1212/1212.6038.pdf#:~:text=The%20ear%20clippi
 
 https://github.com/mrbaozi/triangulation
 
-https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
+https://pt.wikipedia.org/wiki/Busca_em_profundidade
