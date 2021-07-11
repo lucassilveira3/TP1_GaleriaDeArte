@@ -11,19 +11,26 @@ As estruturas de dados utilizadas foram listas e arrays (amplamente utilizados e
 #### 2.2.	Triangulação Ear-Clipping
 Para realizar o Ear-Clipping, foram utilizadas algumas funções relacionadas a Geometria:
 •	Produto Vetorial: verificação dos ângulos (maiores ou menores que 180º);
+
 •	Área do triângulo: verificação se o ponto se encontrava dentro do triângulo;
+
 •	Cálculo do ângulo interior: base da função para procurar as ear tips;
 #### 2.2.1.	Função verificaEar
 A função que procura e remove as ear tips funciona da seguinte forma:
 •	Procurar a ear tip com menor ângulo;
+
 •	Formar um triângulo com os vértices (Vi-1, Vi, Vi+1);
+
 •	Remover o vértice Vi;
+
 •	Atualizar as conexões entre os vértices e os status das ear tips restantes;
+
 A função é executada diversas vezes, até restar apenas um triângulo (três vértices finais).
 #### 2.3.	3-Coloração
 A coloração dos vértices foi uma etapa mais complicada que a triangulação, porém ela foi realizada por meio da utilização dos vértices adjacentes e do algoritmo DFS (Depth-First Search).
 #### 2.3.1.	Algoritmo DFS (Depth-First Search)
 Após uma adaptação no algoritmo DFS, que antes realizava a busca em grafos, a coloração ficou mais simples. A DFS ou busca em profundidade, funciona em conjunto com os vértices adjacentes, buscando os vértices que não estão coloridos e que não fazem adjacência com outro vértice colorido da mesma cor.
+
 Portanto, após colorir um vértice de vermelho, a função vai colorir outros vértices que, em conjunto, formam um triângulo. Sempre buscando evitar que vértices adjacentes sejam coloridos da mesma cor, a função é executada até todos os vértices estarem coloridos (ou até todos os triângulos possuírem as três cores em seus vértices).
 
 ### 3. Execução
