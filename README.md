@@ -32,6 +32,8 @@ Por fim, destaco a importância de se aprender e saber utilizar os algoritmos ge
 ## Referências
 https://www.geometrictools.com/Documentation/TriangulationByEarClipping.pdf
 
+https://arxiv.org/ftp/arxiv/papers/1212/1212.6038.pdf#:~:text=The%20ear%20clipping%20triangulation%20algorithm,newly%20formed%20triangle%20is%20valid
+
 https://github.com/mrbaozi/triangulation
 
 https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
